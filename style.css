@@ -1,0 +1,108 @@
+@import "http://webfonts.ru/import/chunkfive.css";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 900px;
+	background-size: 100px;
+}
+.center{
+	width: 960px;
+	margin: 0 auto;
+}
+img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+a:hover{text-decoration: underline; color: #000;}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	    font-family: 'Proxima Nova Black';
+	    font-size: 20px;
+}
+.vk{
+  margin-left: 415px;
+}
+.links li{
+	margin: 20px 0 20px 145px;
+	padding-right: 15px;
+	float: left;
+}
+.port h3{
+	text-transform: uppercase;
+	position: relative;
+	color: #fff;
+	font-size: 45px;
+	text-align: center;
+	font-family: ChunkFive Roman ;
+	font-weight: 200;
+	padding-top: 25px;
+}
+.links{
+	position: relative;
+}
+
+.one a:hover{
+	color: #1BBFF5;
+}
+.two a:hover{
+	color: #6E0089;
+}
+.three a:hover{
+	color: #FF4141;
+}
+ .slider {
+ z-index: 9;
+ width: 700px;
+ height: 560px;
+ overflow: hidden;
+ margin: 0 0 7px;
+ position: relative;
+margin-left: 130px;
+margin-top: 20px;
+ }
+ .slider ul,
+ .slider li {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+ }
+ .slider ul {
+ width: 9999px; 
+ }
+ .slider ul li {
+ list-style-type: none;
+ float: left;
+ width: 700px;
+ height: 290px;
+ }
+ .slider .nav {
+ position: absolute;
+ left: 15px;
+ bottom: 12px; 
+ padding-left: 300px;
+ }
+ .slider .nav span {
+ opacity: 0.9;
+ background: #fff;
+ margin: 0 8px 0 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+ cursor: pointer;
+ overflow: hidden;
+ display: block;
+ float: left;
+ box-shadow: 0 1px 2px #000;
+ }
+ .slider .nav span.on {
+ background: #2e9419;
+ }
